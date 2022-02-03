@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav{
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    background-color: #4d3ddb;
+    width: 100%;
+}
+
+
