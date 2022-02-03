@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+:root {
+    --primario: red;
+    --segundario: green;
+}
+
+body{
+    font-family: 'Supermercado One', cursive; 
+}
+
+main{
+    text-align: center;
+
+}
+
+img{
+    width: 100px;
+}
+
+div img{
+    display: flex;
+}
+
+.piePagina{
+    width: 100%;
+    background-color: var(--segundario);
+    align-items: center;
+}
+
+.grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 5px 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.piePagina .grupo1 .box figure{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .piePagina .grupo1 .box figure img{
+    width: 250px;
+  }
+  .piePagina .grupo1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+  }
+  .piePagina .grupo1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+  }
+  #links{
+    margin: 3%;
+  }
+  .piePagina .grupo2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+  }
+  .piePagina .grupo2 small{
+    font-size: 15px;  
+  }
+  .grupo1 .box .redSocial a{
+    text-decoration: none;
+    color: #efefef;
+  }
